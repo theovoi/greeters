@@ -46,6 +46,10 @@ angular.module('starter', ['ionic'])
         url:'/category',
         templateUrl:'templates/category.html'
       })
+      $stateProvider.state('search', {
+        url:'/search',
+        templateUrl:'templates/search.html'
+      })
 
 
 
