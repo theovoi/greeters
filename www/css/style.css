@@ -42,3 +42,9 @@
 .right {
     text-align: right;
 }
+
+.titleright {
+    position:relative!important;
+    font-size: 20px!important;
+    
+}
