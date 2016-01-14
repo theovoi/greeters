@@ -25,3 +25,20 @@
 	padding: 5%;
 
 }
+
+.greenbg {
+    background-color: #557b13;
+}
+
+.whitefont {
+    color: white!important;
+    text-align: center;
+}
+
+.white {
+    color: white!important;
+}
+
+.right {
+    text-align: right;
+}

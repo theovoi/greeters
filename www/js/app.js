@@ -42,6 +42,11 @@ angular.module('starter', ['ionic'])
         url:'/connexion',
         templateUrl:'templates/connexion.html'
       })
+      $stateProvider.state('category', {
+        url:'/category',
+        templateUrl:'templates/category.html'
+      })
+
 
 
       $urlRouterProvider.otherwise('/home')
