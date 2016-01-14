@@ -1,0 +1,57 @@
+<ion-view view-title="Connexion" class="back1">
+    <ion-content class="padding imgaccueil">
+
+    <div>
+            <img src="../img/logo.png" class="logo" alt="logo">
+      </div>
+
+        <!--<div>
+        <div class="text-center paddin">
+            <label class="item">
+                <button class="button button-fb" ng-click="fbLogin()">
+                    Login with Facebook
+                </button>
+            </label>
+        </div>
+        <div class="text-center bordure">
+          <p>OU</p>
+        </div>
+      </div>-->
+
+
+      <div class="login text-center">
+        <form name="registerForm" ng-submit="register(registerForm)" novalidate="" class="classicForm ">
+                    
+                        <label>
+                            <br>
+                            <input type="text" placeholder="Identifiant" name="pseudo" ng-model="postData.pseudo" required ng-class="{ 'has-errors' : registerForm.pseudo.$invalid && registerForm.$submitted}">
+                        </label>
+
+                        
+                        <label>
+                            <br>
+                            <input type="text" placeholder="Mot de Passe" name="password" ng-model="postData.password" required ng-class="{ 'has-errors' : registerForm.password.$invalid && registerForm.$submitted}">
+                        </label>
+          
+                        
+
+                    </fieldset>
+                    
+                      <button class="button button-positive" ng-click="connect()">
+                        Connexion
+                      </button>
+                    
+                </form>
+              </div>
+              <div class="connect text-center">
+                <a ui-sref="inscription" >Se créer un comptes</a>
+              </div>
+              <div class="connect text-center">
+                <a ui-sref="inscription" >Mot de Passe oublié ?</a>
+              </div>
+ 
+
+
+
+    </ion-content> 
+</ion-view>

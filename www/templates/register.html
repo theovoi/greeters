@@ -1,0 +1,47 @@
+<ion-view view-title="Inscription" class="back1">
+    <ion-content class="padding imgaccueil">
+      <div>
+            <img src="../img/logo.png" class="logo" align="center" alt="logo">
+      </div>
+      <div class="login text-center">
+    <form name="registerForm" ng-submit="register(registerForm)" novalidate="" class="classicForm">
+               
+                   
+
+                    <label>
+                        <br>
+                        <input type="text" placeholder="Nom d'utilisateur" name="titre" ng-model="postData.pseudo" required ng-class="{ 'has-errors' : registerForm.pseudo.$invalid && registerForm.$submitted}">
+                    </label>
+
+                    <label>
+                        <br>
+                        <input type="text" placeholder="Mail" name="titre" ng-model="postData.email" required ng-class="{ 'has-errors' : registerForm.pseudo.$invalid && registerForm.$submitted}">
+                    </label>
+
+                    
+                    <label>
+                       <br>
+                        <input type="text" placeholder="Mot de passe" name="description" ng-model="postData.password" required ng-class="{ 'has-errors' : registerForm.password.$invalid && registerForm.$submitted}">
+                    </label>
+                    
+
+                    
+                    <label>
+                        <br>
+                        <input type="text" placeholder="Confirmer le mot de passe" name="url" ng-model="postData.password" required ng-class="{ 'has-errors' : registerForm.email.$invalid && registerForm.$submitted}">
+                    </label>
+                    
+
+              
+                
+                  <button class="button button-positive">
+                    Inscription
+                  </button>
+                
+            </form>
+        </div>
+      
+        <div class="connect text-center">
+          <a ui-sref="connexion" > Connectez vous</a>
+        </div>
+      
