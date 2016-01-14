@@ -48,3 +48,20 @@
     font-size: 20px!important;
     
 }
+
+.bar {
+    background-color: black;
+}
+
+.lieu {
+    background-color: black;
+}
+
+input placeholder {
+    color: white;
+}
+
+input.placeholder {
+    color: white;
+}
+
