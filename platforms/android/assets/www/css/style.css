@@ -1,0 +1,67 @@
+.map {
+    background: url(../img/map.jpg);
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+    background-position: center;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+}
+
+.back1 {
+    background: url(../img/back1.jpg);
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+    background-position: center;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+}
+
+.logo {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+
+}
+
+.greenbg {
+    background-color: #557b13;
+}
+
+.whitefont {
+    color: white!important;
+    text-align: center;
+}
+
+.white {
+    color: white!important;
+}
+
+.right {
+    text-align: right;
+}
+
+.titleright {
+    position:relative!important;
+    font-size: 20px!important;
+    
+}
+
+.bar {
+    background-color: black;
+}
+
+.lieu {
+    background-color: black;
+}
+
+input placeholder {
+    color: white;
+}
+
+input.placeholder {
+    color: white;
+}
+
