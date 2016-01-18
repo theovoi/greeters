@@ -117,3 +117,24 @@ input.placeholder {
     vertical-align: middle;
     margin-right: 12px;
 }
+
+#bouton-inscription {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.connection {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    height: 65px;
+    color: black;
+}
+
