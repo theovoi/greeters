@@ -35,6 +35,11 @@
     text-align: center;
 }
 
+.whitefont2 {
+    color: white!important;
+
+}
+
 .white {
     color: white!important;
 }
@@ -118,6 +123,7 @@ input.placeholder {
     margin-right: 12px;
 }
 
+<<<<<<< HEAD
 #bouton-inscription {
     background-color: black;
     background: rgba(0, 0, 0, .6);
@@ -138,3 +144,18 @@ input.placeholder {
     color: black;
 }
 
+=======
+/* ABOUT SECTION */
+.aboutext{
+    color:white;
+    font-size: 18px;
+}
+
+.topping {
+    padding-top: 130px;
+}
+
+.toppings {
+    padding-top: 50px;
+}
+>>>>>>> 1a89bf07e4ea0767302504286489d0913d345416
