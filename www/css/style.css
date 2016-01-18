@@ -65,3 +65,55 @@ input.placeholder {
     color: white;
 }
 
+#inscription {
+    color: white;
+    text-decoration: underline;
+}
+
+#connexion {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+} 
+
+#instagram {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #9b6954;
+}
+
+#facebook {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #3b5998;
+}
+
+.logo-insta {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo-facebook {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 12px;
+}

@@ -50,9 +50,14 @@ angular.module('starter', ['ionic'])
         url:'/search',
         templateUrl:'templates/search.html'
       })
+      $stateProvider.state('connect', {
+        url:'/connect',
+        templateUrl:'templates/connect.html'
+      })
 
 
 
       $urlRouterProvider.otherwise('/home')
 
   });
+
