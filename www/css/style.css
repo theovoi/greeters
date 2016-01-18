@@ -35,6 +35,11 @@
     text-align: center;
 }
 
+.whitefont2 {
+    color: white!important;
+
+}
+
 .white {
     color: white!important;
 }
@@ -116,4 +121,18 @@ input.placeholder {
     width: 30px;
     vertical-align: middle;
     margin-right: 12px;
+}
+
+/* ABOUT SECTION */
+.aboutext{
+    color:white;
+    font-size: 18px;
+}
+
+.topping {
+    padding-top: 130px;
+}
+
+.toppings {
+    padding-top: 50px;
 }

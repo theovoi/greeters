@@ -5,6 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic'])
 
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -21,6 +22,7 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -54,10 +56,16 @@ angular.module('starter', ['ionic'])
         url:'/connect',
         templateUrl:'templates/connect.html'
       })
+    $stateProvider.state('configuration', {
+        url:'/configuration',
+        templateUrl:'templates/configuration.html'
+    })
 
 
 
       $urlRouterProvider.otherwise('/home')
+
+
 
   });
 
