@@ -123,6 +123,28 @@ input.placeholder {
     margin-right: 12px;
 }
 
+<<<<<<< HEAD
+#bouton-inscription {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.connection {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    height: 65px;
+    color: black;
+}
+
+=======
 /* ABOUT SECTION */
 .aboutext{
     color:white;
@@ -136,3 +158,4 @@ input.placeholder {
 .toppings {
     padding-top: 50px;
 }
+>>>>>>> 1a89bf07e4ea0767302504286489d0913d345416
