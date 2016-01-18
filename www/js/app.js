@@ -60,6 +60,10 @@ angular.module('starter', ['ionic'])
         url:'/configuration',
         templateUrl:'templates/configuration.html'
     })
+    $stateProvider.state('account', {
+        url:'/account',
+        templateUrl:'templates/account.html'
+    })
 
 
 
