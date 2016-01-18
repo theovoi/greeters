@@ -159,3 +159,7 @@ input.placeholder {
     padding-top: 50px;
 }
 >>>>>>> 1a89bf07e4ea0767302504286489d0913d345416
+
+.profil {
+    border-top: none!important;
+}
