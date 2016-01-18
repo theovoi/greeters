@@ -22,3 +22,37 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+.config(function($stateProvider, $urlRouterProvider) {
+
+      $stateProvider.state('home', {
+        url:'/home',
+        templateUrl:'templates/home.html',
+        
+        })
+      $stateProvider.state('about',{
+        url:'/about',
+        templateUrl:'templates/about.html',
+      })
+      $stateProvider.state('register', {
+        url:'/register',
+        templateUrl:'templates/register.html'
+      })
+      $stateProvider.state('connexion', {
+        url:'/connexion',
+        templateUrl:'templates/connexion.html'
+      })
+      $stateProvider.state('category', {
+        url:'/category',
+        templateUrl:'templates/category.html'
+      })
+      $stateProvider.state('search', {
+        url:'/search',
+        templateUrl:'templates/search.html'
+      })
+
+
+
+      $urlRouterProvider.otherwise('/home')
+
+  });
