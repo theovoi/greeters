@@ -75,6 +75,30 @@ input.placeholder {
     text-decoration: underline;
 }
 
+#bouton-inscription {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 55%;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#bouton-connexion {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
 #connexion {
     background-color: black;
     background: rgba(0, 0, 0, .6);
@@ -158,8 +182,32 @@ input.placeholder {
 .toppings {
     padding-top: 50px;
 }
->>>>>>> 1a89bf07e4ea0767302504286489d0913d345416
 
-.profil {
-    border-top: none!important;
+.retour {
+    color: white !important;
 }
+
+.barre-du-haut {
+    background-color: black !important;
+}
+
+.barre-du-bas {
+    background-color: black !important;
+}
+
+.contour-icone {
+    border: 1px solid white !important;
+}
+
+.bordure-icone-right {
+    border-right: 2px solid white !important;
+    padding-top: 3px !important;
+    margin-top: -6px !important;
+    margin-bottom: -5px;
+}
+
+.bordure-icone-left {
+    margin-top: -4px !important;
+}
+
+
