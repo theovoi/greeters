@@ -147,6 +147,10 @@ input.placeholder {
     margin-right: 12px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 39476b68f9429318f7e9843b52db6da1e76aa3db
 #bouton-inscription {
     background-color: black;
     background: rgba(0, 0, 0, .6);
@@ -167,9 +171,13 @@ input.placeholder {
     color: black;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 39476b68f9429318f7e9843b52db6da1e76aa3db
 /* ABOUT SECTION */
 .aboutext{
-    color:white;
+    color:white!important;
     font-size: 18px;
 }
 
@@ -208,6 +216,7 @@ input.placeholder {
     margin-top: -4px !important;
 }
 
+<<<<<<< HEAD
 #user {
     margin-top: 75px;
 }
@@ -240,5 +249,10 @@ input.placeholder {
     text-align: center;
     display: block;
     margin: auto;
+=======
+.mappa1 {
+    margin-top: 200px;
+    font-size: 90px;
+>>>>>>> 39476b68f9429318f7e9843b52db6da1e76aa3db
 }
 
