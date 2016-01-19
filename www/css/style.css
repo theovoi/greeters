@@ -147,7 +147,7 @@ input.placeholder {
     margin-right: 12px;
 }
 
-<<<<<<< HEAD
+
 #bouton-inscription {
     background-color: black;
     background: rgba(0, 0, 0, .6);
@@ -168,10 +168,10 @@ input.placeholder {
     color: black;
 }
 
-=======
+
 /* ABOUT SECTION */
 .aboutext{
-    color:white;
+    color:white!important;
     font-size: 18px;
 }
 
@@ -210,4 +210,8 @@ input.placeholder {
     margin-top: -4px !important;
 }
 
+.mappa1 {
+    margin-top: 200px;
+    font-size: 90px;
+}
 
