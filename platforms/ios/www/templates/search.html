@@ -1,3 +1,4 @@
+<body ng-controller="MapCtrl">
 <ion-view view-title="Search" class="search">
     <ion-content class="" scroll="false">
 		<div class="bar bar-header item-input-inset">
@@ -6,5 +7,9 @@
     			<input type="search" placeholder="Rechercher un lieu" class="placeholder">
   			</label>
 		</div>
+      	<div id="map" data-tap-disabled="true"></div>
+    	<ion-footer-bar class="bar-dark">
+        	<a ng-click="centerOnMe()" class="button button-icon icon ion-navigate">Find Me</a>
+    	</ion-footer-bar>
 	</ion-content>
 </ion-view>

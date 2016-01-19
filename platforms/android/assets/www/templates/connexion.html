@@ -24,30 +24,31 @@
                     
                         <label>
                             <br>
-                            <input type="text" placeholder="Identifiant" name="pseudo" ng-model="postData.pseudo" required ng-class="{ 'has-errors' : registerForm.pseudo.$invalid && registerForm.$submitted}">
+                            <input class="connection" type="text" placeholder="Identifiant" name="pseudo" ng-model="postData.pseudo" required ng-class="{ 'has-errors' : registerForm.pseudo.$invalid && registerForm.$submitted}">
                         </label>
 
                         
                         <label>
                             <br>
-                            <input type="text" placeholder="Mot de Passe" name="password" ng-model="postData.password" required ng-class="{ 'has-errors' : registerForm.password.$invalid && registerForm.$submitted}">
+                            <input class="connection" type="text" placeholder="Mot de Passe" name="password" ng-model="postData.password" required ng-class="{ 'has-errors' : registerForm.password.$invalid && registerForm.$submitted}">
                         </label>
-          
-                        
-
-                    </fieldset>
+                        <br>
+                      </fieldset>
                     
-                      <button class="button button-full button-positive" ng-click="connect()">
+                      <button id="bouton-connexion" class="button button-full button-positive" ng-click="connect()">
                         Connexion
                       </button>
                     
                 </form>
               </div>
+              <br>
               <div class="connect text-center">
-                <a ui-sref="inscription" >Se créer un compte</a>
+                <a id="inscription" ui-sref="inscription" >Se créer un compte</a>
               </div>
+              <br>
+              <br>
               <div class="connect text-center">
-                <a ui-sref="inscription" >Mot de Passe oublié ?</a>
+                <a id="inscription" ui-sref="inscription" >Mot de Passe oublié ?</a>
               </div>
  
 

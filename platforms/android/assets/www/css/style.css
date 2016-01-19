@@ -35,6 +35,11 @@
     text-align: center;
 }
 
+.whitefont2 {
+    color: white!important;
+
+}
+
 .white {
     color: white!important;
 }
@@ -63,5 +68,200 @@ input placeholder {
 
 input.placeholder {
     color: white;
+}
+
+#inscription {
+    color: white;
+    text-decoration: underline;
+}
+
+#bouton-inscription {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 55%;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#bouton-connexion {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#connexion {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+} 
+
+#instagram {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #9b6954;
+}
+
+#facebook {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: #3b5998;
+}
+
+.logo-insta {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo-facebook {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#bouton-inscription {
+    background-color: black;
+    background: rgba(0, 0, 0, .6);
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.connection {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    height: 65px;
+    color: black;
+}
+
+/* ABOUT SECTION */
+.aboutext{
+    color:white!important;
+    font-size: 18px;
+}
+
+.topping {
+    padding-top: 130px;
+}
+
+.toppings {
+    padding-top: 50px;
+}
+
+.retour {
+    color: white !important;
+}
+
+.barre-du-haut {
+    background-color: black !important;
+}
+
+.barre-du-bas {
+    background-color: black !important;
+}
+
+.contour-icone {
+    border: 1px solid white !important;
+}
+
+.bordure-icone-right {
+    border-right: 2px solid white !important;
+    padding-top: 3px !important;
+    margin-top: -6px !important;
+    margin-bottom: -5px;
+}
+
+.bordure-icone-left {
+    margin-top: -4px !important;
+}
+
+#user {
+    margin-top: 75px;
+}
+
+#user h5 {
+    color: white;
+}
+
+.user-bold {
+    font-weight: bold;
+}
+
+.pictures-user {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.modif {
+    background-color: rgba(23, 87, 50, .8);
+    color: white;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: -55px;
+    font-size: 15px;
+}
+
+.title-pictures {
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.mappa1 {
+    margin-top: 200px;
+    font-size: 90px;
+
+}
+
+.pictures-favoris {
+    width: 30%;
+    height: 30%;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+.lieu-favoris {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    display: block;
+    margin: auto;
 }
 
