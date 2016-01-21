@@ -129,7 +129,7 @@ module.controller('MyCtrl', function($scope, Camera) {
     	console.log("map")
       function initialize() {
       	console.log("initialize")
-        var myLatlng = new google.maps.LatLng(43.07493,-89.381388);
+        var myLatlng = new google.maps.LatLng(48.858285,2.294449);
         
         var mapOptions = {
           center: myLatlng,

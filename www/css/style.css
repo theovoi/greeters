@@ -27,7 +27,11 @@
 }
 
 .greenbg {
+<<<<<<< HEAD
     background-color: #557b13!important;
+=======
+    background-color: #557b13 !important;
+>>>>>>> 71fe46f9e8d1537fa665c4ecbe0023a94af27983
 }
 
 .whitefont {
@@ -55,19 +59,18 @@
 }
 
 .bar {
-    background-color: black;
+    background-color: black !important;
 }
 
 .lieu {
-    background-color: black;
-}
+    background-color: black !important;
+    border-bottom: 2px solid white !important;
+    border-radius: 0px !important;
 
-input placeholder {
-    color: white;
 }
 
 input.placeholder {
-    color: white;
+    color: white !important;
 }
 
 #inscription {
@@ -227,12 +230,12 @@ input.placeholder {
 }
 
 .modif {
-    background-color: rgba(23, 87, 50, .8);
-    color: white;
-    width: 80%;
-    margin-left: 30px;
-    margin-top: -55px;
-    font-size: 15px;
+    background-color: rgba(23, 87, 50, .8) !important;
+    color: white !important;
+    width: 70% !important;
+    margin-left: 30px !important;
+    margin-top: -55px !important;
+    font-size: 15px !important;
 }
 
 .title-pictures {
@@ -273,4 +276,9 @@ input.placeholder {
 .scroll {
   height: 100%;
 }
+
+.margin-top {
+    margin-top: 43px;
+}
+
 
